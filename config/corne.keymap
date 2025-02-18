@@ -25,7 +25,7 @@
         toggleToCombo {
             bindings = <&tog COMBO>;
             key-positions = <37 40>;
-            layers = <BASE LOWER RAISE>;
+            layers = <0 2 1>;
         };
 
         exitCombo {
