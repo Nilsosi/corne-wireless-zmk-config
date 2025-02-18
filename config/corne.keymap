@@ -25,12 +25,12 @@
                 toggleToCombo {
                 bindings = <&tog COMBO>;
                 key-positions = <37 40>;
-                layers = <BASE LOWER RAISE>
+                layers = <BASE LOWER RAISE>;
                 };
                                 exitCombo {
                 bindings = <&tog BASE>;
                 key-positions = <37 40>;
-                layers = <COMBO>
+                layers = <COMBO>;
                 };
 
         };
@@ -58,7 +58,7 @@
                 }
                 lower_layer {
 
-                        display-name = "Lower";w
+                        display-name = "Lower";
                         bindings = <
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // |     TAB     |      1      |      2      |      3      |      4      |      5      ||             |             |      UP      |             |             |     BKSP    |
@@ -115,6 +115,7 @@ combo_layer {
 //                                           --------------------------------------------------------------------------------------
 
                         >;
+};
 
 
                 extra_2 {
