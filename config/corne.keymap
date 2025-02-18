@@ -55,7 +55,8 @@
                                                 &kp LGUI      &mo LOWER     &kp SPACE       &kp RET      &mo RAISE     &kp RALT
 //                                           --------------------------------------------------------------------------------------
                         >;
-                }
+                };
+
                 lower_layer {
 
                         display-name = "Lower";
