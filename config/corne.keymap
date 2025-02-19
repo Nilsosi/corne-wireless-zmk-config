@@ -14,26 +14,21 @@
 #define COMBO 3
 
 / {
-        combos{
-                compatible = "zmk,combos";
-                
-                semi {
-                bindings = <&kp SEMICOLON>;
-                key-positions = <33 32>;
-                };
+        // combos{
+        //         compatible = "zmk,combos";
 
-                toggleToCombo {
-                bindings = <&tog COMBO>;
-                key-positions = <37 40>;
-                layers = <BASE LOWER RAISE>;
-                };
-                                exitCombo {
-                bindings = <&tog BASE>;
-                key-positions = <37 40>;
-                layers = <COMBO>;
-                };
+        //         // toggleToCombo {
+        //         // bindings = <&tog COMBO>;
+        //         // key-positions = <37 40>;
+        //         // layers = <BASE LOWER RAISE>;
+        //         // };
+        //         // exitCombo {
+        //         // bindings = <&tog BASE>;
+        //         // key-positions = <37 40>;
+        //         // layers = <COMBO>;
+        //         // };
 
-        };
+        // };
         keymap {
                 compatible = "zmk,keymap";
 
